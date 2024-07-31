@@ -51,7 +51,6 @@ body::before {
     z-index: -1;
 }
 
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -112,7 +111,6 @@ body::before {
     padding-right: 20px;
 }
 
-
 .details {
     margin-top: 50px;
     width: 100%;
@@ -154,7 +152,6 @@ body::before {
     transform: scale(1.2);
 }
 
-
 .learning-icons {
     display: flex;
     gap: 10px;
@@ -172,7 +169,6 @@ body::before {
     transform: scale(1.2);
 }
 
-
 .social-icons {
     display: flex;
     flex-direction: row;
@@ -180,7 +176,6 @@ body::before {
     margin-top: 15px;
     justify-content: flex-end;
 }
-
 
 .social-icons a {
     color: #000000;
@@ -196,5 +191,71 @@ body::before {
     transform: scale(1.2);
 }
 
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
 
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-info {
+        align-items: center;
+        padding: 0;
+    }
+
+    .details {
+        padding: 0 10px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-photo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-info h1 {
+        font-size: 20px;
+    }
+
+    .profile-info p {
+        font-size: 14px;
+    }
+
+    .details {
+        margin-top: 30px;
+        padding: 0 5px;
+    }
+
+    .detail-section h2 {
+        font-size: 18px;
+    }
+
+    .detail-section p {
+        font-size: 14px;
+    }
+
+    .skills-icons img, .learning-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icons a {
+        font-size: 25px;
+    }
+}
