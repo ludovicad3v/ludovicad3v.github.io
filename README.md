@@ -1,4 +1,10 @@
-Icons used (Credits): 
+# My Carrd Style GitHub Pages website
+
+Hi all, so I finally deployed this little website inspired from Carrd.co templates.
+
+# Icons Credits
+
+These are the free icons that I used:
 
 https://www.flaticon.com/free-icon/terraform_11861475?term=terraform&page=1&position=4&origin=search&related_id=11861475
 
