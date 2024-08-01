@@ -18,3 +18,7 @@ https://www.flaticon.com/free-icon/sql-server_5815886?term=sql&page=1&position=8
 
 https://www.flaticon.com/free-icon/code_3573187?term=coding&page=1&position=1&origin=search&related_id=3573187
 
+https://icons8.it/icons/set/favicon--static--magenta
+
+
+
